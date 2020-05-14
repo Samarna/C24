@@ -20,14 +20,13 @@ function setup(){
 
 function draw(){
     background("lightblue");
-    
+    arc(155,475,175,175,600,false);
     ground.display();
     box1.display();
     box2.display();
     box3.display();
     ball.display();
     fill(255);
-    arc(479, 300, 280, 280, PI, TWO_PI);
 }
 
 function keyReleased() {
