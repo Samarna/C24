@@ -15,7 +15,7 @@ function setup(){
     box1 = new Box(155,500,180,70);
     box2 = new Box(155,550,200,70);
     box3 = new Head(250,440,100,30);
-    ball = new CanonBall(200,400,100);
+    ball = new CanonBall(200,400);
 }
 
 function draw(){
