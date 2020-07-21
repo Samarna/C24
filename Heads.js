@@ -1,10 +1,10 @@
 class Head{
-    constructor(x, y, width, height) {
+    constructor(x, y, width, height,angle) {
     var options = {
         isStatic : true
     }
       this.body = Bodies.rectangle(x, y, width, height,options);
-
+      Matter.Body.setAngle(this.body, angle);
       this.width = width;
       this.height = height;
       
