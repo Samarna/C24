@@ -14,17 +14,17 @@ function setup(){
     ground = new Ground(600,590,1200,20);    
     box1 = new Box(155,500,180,70);
     box2 = new Box(155,550,200,70);
-    box3 = new Head(250,440,100,30);
+    box3 = new Head(250,400,100,30, -PI/5);
     ball = new CanonBall(200,400);
 }
 
 function draw(){
     background("lightblue");
+    box3.display();
     arc(155,475,175,175,600,false);
     ground.display();
     box1.display();
     box2.display();
-    box3.display();
     ball.display();
     fill(255);
 }
